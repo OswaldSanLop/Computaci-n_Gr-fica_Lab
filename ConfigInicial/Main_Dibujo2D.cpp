@@ -1,5 +1,5 @@
 /*
-Practica #2. Configuración inicial                      |   Sánchez López Osvaldo
+Practica #2. Dibujo de primitivas en 2D				    |   Sánchez López Osvaldo
 Fecha de entrega: 24 de febrero de 2026                 |   No. Cuenta: 318211396
 */
 
