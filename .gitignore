@@ -8,7 +8,3 @@ x86/
 *.aps
 *.opendb
 *.pdb
-
-# Binarios de librerías (Opcional)
-# Si tu profe te pide que las subas, no pongas esto. 
-# Pero usualmente no se suben para no saturar el repo.
