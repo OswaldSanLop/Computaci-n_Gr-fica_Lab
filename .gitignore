@@ -1,0 +1,14 @@
+# Visual Studio temporales
+.vs/
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+*.user
+*.aps
+*.opendb
+*.pdb
+
+# Binarios de librerías (Opcional)
+# Si tu profe te pide que las subas, no pongas esto. 
+# Pero usualmente no se suben para no saturar el repo.
