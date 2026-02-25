@@ -1,0 +1,14 @@
+# Visual Studio temporales
+.vs/
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+*.user
+*.aps
+*.opendb
+*.pdb
+
+# Ignorar archivos fuente específicos de las prácticas
+Main.cpp
+Main_Dibujo2D.cpp
