@@ -9,6 +9,6 @@ x86/
 *.opendb
 *.pdb
 
-# Binarios de librerías (Opcional)
-# Si tu profe te pide que las subas, no pongas esto. 
-# Pero usualmente no se suben para no saturar el repo.
+# Ignorar archivos fuente específicos de las prácticas
+Main.cpp
+Main_Dibujo2D.cpp

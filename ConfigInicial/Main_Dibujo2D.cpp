@@ -1,5 +1,5 @@
 /*
-Practica #2. Configuración inicial                      |   Sánchez López Osvaldo
+Practica #2. Dibujo de primitivas en 2D                 |   Sánchez López Osvaldo
 Fecha de entrega: 24 de febrero de 2026                 |   No. Cuenta: 318211396
 */
 
@@ -208,7 +208,7 @@ int main() {
 		ourShader.Use();
 		glBindVertexArray(VAO);
 
-		//Uso de GL_TRIANGLES  para los triangulos que mapee
+		// Uso de GL_TRIANGLES  para los triangulos que mapee
 		// Son 15 índices. Se empieza a leer a partir del índice 136.
 		// (136 * sizeof(unsigned int)) es el offset (desplazamiento) en memoria.
 		glDrawElements(GL_TRIANGLES, 15, GL_UNSIGNED_INT, (void*)(136 * sizeof(unsigned int)));
@@ -216,7 +216,7 @@ int main() {
 		// Agregué un grosor de 4 para que se vea mejor.
 		glLineWidth(4.0f);
 
-		// Dibujamos usando GL_LINES
+		// Uso de GL_LINES para las lineas
 		// Hay 136 índices en total (lo que equivale a 68 líneas)
 		// Son 136 índices.Empezamos a leer desde el inicio(offset 0).
 		glDrawElements(GL_LINES, 136, GL_UNSIGNED_INT, 0);

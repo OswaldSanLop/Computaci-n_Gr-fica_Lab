@@ -1,3 +1,8 @@
+/*
+Practica #1. Configuración Inicial						|   Sánchez López Osvaldo
+Fecha de entrega: 23 de febrero de 2026                 |   No. Cuenta: 318211396
+*/
+
 #include<iostream>
 
 //#define GLEW_STATIC
