@@ -1,6 +1,6 @@
 /*
-Práctica #6: Modelado Craga de modelos 3D                                          |   Sánchez López Osvaldo
-Fecha de entrega: 08 de marzo de 2026											   |   No. Cuenta: 318211396
+PrÃ¡ctica #6: Modelado Craga de modelos 3D                                          |   SÃ¡nchez LÃ³pez Osvaldo
+Fecha de entrega: 10 de marzo de 2026											   |   No. Cuenta: 318211396
 */
 
 
@@ -60,7 +60,7 @@ int main( )
     glfwWindowHint( GLFW_RESIZABLE, GL_FALSE );
     
     // Create a GLFWwindow object that we can use for GLFW's functions
-    GLFWwindow *window = glfwCreateWindow( WIDTH, HEIGHT, "Sánchez López Osvaldo", nullptr, nullptr );
+    GLFWwindow *window = glfwCreateWindow( WIDTH, HEIGHT, "SÃ¡nchez LÃ³pez Osvaldo", nullptr, nullptr );
     
     if ( nullptr == window )
     {
