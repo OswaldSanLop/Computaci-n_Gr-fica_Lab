@@ -1,5 +1,5 @@
 /*
-Práctica #7: Texturizado				                                       | Sánchez López Osvaldo
+Previo #7: Texturizado				                                       | SÃ¡nchez LÃ³pez Osvaldo
 Fecha de entrega: 17 de marzo de 2026										   | No. Cuenta: 318211396
 */
 
