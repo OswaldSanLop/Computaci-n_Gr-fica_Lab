@@ -1,0 +1,7 @@
+newmtl OuterShell
+Kd 1.0 1.0 1.0
+map_Kd texture.png
+
+newmtl Diffuser
+Kd 1.0 1.0 1.0
+map_Kd texture.png

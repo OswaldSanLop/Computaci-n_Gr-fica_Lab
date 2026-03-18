@@ -1,0 +1,61 @@
+# Softbox con Trípode
+mtllib softbox.mtl
+g Softbox_Stand
+
+# --- Vértices Softbox ---
+v -1.0 -1.0  1.0  # 1: Frente (Difusor)
+v  1.0 -1.0  1.0  # 2
+v  1.0  1.0  1.0  # 3
+v -1.0  1.0  1.0  # 4
+v -0.3 -0.3  0.0  # 5: Atrás (Montura)
+v  0.3 -0.3  0.0  # 6
+v  0.3  0.3  0.0  # 7
+v -0.3  0.3  0.0  # 8
+
+# --- Vértices Trípode (Cuerpo) ---
+# Columna vertical (desde el centro de la montura hacia abajo)
+v -0.05 -0.05  0.0  # 9: Tope columna
+v  0.05 -0.05  0.0  # 10
+v  0.05  0.05  0.0  # 11
+v -0.05  0.05  0.0  # 12
+v -0.05 -3.00  0.0  # 13: Base columna (suelo)
+v  0.05 -3.00  0.0  # 14
+v  0.05 -3.00 -0.1  # 15
+v -0.05 -3.00 -0.1  # 16
+
+# --- Vértices Patas (Trípode) ---
+v -0.50 -3.50  0.5  # 17: Pata 1 (Frente izq)
+v  0.50 -3.50  0.5  # 18: Pata 2 (Frente der)
+v  0.00 -3.50 -0.7  # 19: Pata 3 (Atrás)
+
+# UVs (Usando la textura v2: Negro Izq, Blanco Der)
+vt 0.1 0.1  # 1: Negro
+vt 0.4 0.1  # 2: Negro
+vt 0.4 0.9  # 3: Negro
+vt 0.1 0.9  # 4: Negro
+vt 0.6 0.1  # 5: Blanco (Para el difusor)
+vt 0.9 0.1  # 6: Blanco
+vt 0.9 0.9  # 7: Blanco
+vt 0.6 0.9  # 8: Blanco
+
+# --- CARAS ---
+# Difusor (Blanco)
+usemtl Diffuser
+f 1/5 2/6 3/7 4/8
+
+# Carcasa Softbox (Negro)
+usemtl OuterShell
+f 1/1 5/2 6/3 2/4
+f 2/1 6/2 7/3 3/4
+f 3/1 7/2 8/3 4/4
+f 4/1 8/2 5/3 1/4
+
+# Columna y Patas (Negro)
+usemtl OuterShell
+f 9/1 10/2 14/3 13/4
+f 10/1 11/2 15/3 14/4
+f 11/1 12/2 16/3 15/4
+f 12/1 9/2 13/3 16/4
+f 13/1 14/2 17/3  # Pata 1
+f 14/1 15/2 18/3  # Pata 2
+f 15/1 13/2 19/3  # Pata 3

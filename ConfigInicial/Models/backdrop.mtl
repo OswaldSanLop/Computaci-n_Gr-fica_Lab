@@ -1,0 +1,7 @@
+newmtl SupportStructure
+Kd 0.1 0.1 0.1
+map_Kd brown_texture.png
+
+newmtl BackdropColor
+Kd 1.0 1.0 1.0
+map_Kd brown_texture.png
