@@ -1,6 +1,6 @@
 /*
-Pr·ctica #7: Texturizado				                                       | S·nchez LÛpez Osvaldo
-Fecha de entrega: 17 de marzo de 2026										   | No. Cuenta: 318211396
+Pr√°ctica #7: Texturizado				                                       | S√°nchez L√≥pez Osvaldo
+Fecha de entrega: 22 de marzo de 2026										   | No. Cuenta: 318211396
 */
 
 #include <iostream>
