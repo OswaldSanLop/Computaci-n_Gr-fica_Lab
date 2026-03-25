@@ -1,0 +1,35 @@
+# =========================
+# Visual Studio / C++
+# =========================
+# Carpetas de compilación (AQUÍ ESTÁ EL 90% DEL PESO XD)
+Debug/
+Release/
+x64/
+x86/
+build/
+bld/
+[Bb]in/
+[Oo]bj/
+
+# Carpeta oculta de Visual Studio (Pesa muchísimo por el caché)
+.vs/
+
+# Archivos de compilación y depuración individuales
+*.exe
+*.obj
+*.pdb
+*.ilk
+*.idb
+*.lib
+*.dll
+*.exp
+*.pch
+*.ipch
+*.suo
+*.user
+
+# Archivos temporales o de crash
+*.log
+*.tlog
+*.VC.db
+*.opendb

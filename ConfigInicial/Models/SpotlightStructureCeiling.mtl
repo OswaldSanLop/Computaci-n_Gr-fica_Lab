@@ -1,0 +1,7 @@
+# Material para Estructura de Soporte
+newmtl Spotlight
+Ka 1.0 1.0 1.0        # Color ambiente (blanco para usar la textura completa)
+Kd 1.0 1.0 1.0        # Color difuso (blanco para usar la textura completa)
+Ks 0.1 0.1 0.1        # Brillo especular muy bajo para un acabado mate
+Ns 5                  # Rugosidad alta (brillo no definido)
+map_Kd structure_texture.png # Archivo de textura que define el color base
